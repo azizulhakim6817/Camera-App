@@ -21,9 +21,8 @@ const Camera = () => {
           <Webcam
             audio={false}
             ref={webcamRef}
-            screenshotFormat="image/jpeg"
             videoConstraints={videoConstraints}
-            width="100%"
+            screenshotFormat="image/jpeg"
           />
           <div className="button-group mt-3">
             <button className="btn btn-primary" onClick={capture}>
